@@ -1,6 +1,6 @@
 [project]
 name = "banner_Mingk42"
-version = "0.2.4"
+version = "0.3.0"
 description = "Banner Output Program"
 authors = [
     {name = "Mingk42", email = "xoals123456t@gmail.com"},
@@ -13,7 +13,8 @@ readme = "README.md"
 license = {text = "MIT"}
 
 [project.scripts]
-show-banner = "banner_Mingk42.banner:show"
+mingk42-banner = "banner_Mingk42.banner:show"
+mingk42-pic = "banner_Mingk42.banner:pic"
 
 [tool.pdm]
 distribution = true
