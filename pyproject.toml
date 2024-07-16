@@ -1,6 +1,6 @@
 [project]
 name = "banner_Mingk42"
-version = "0.2.0"
+version = "0.3.0"
 description = "Banner Output Program"
 authors = [
     {name = "Mingk42", email = "xoals123456t@gmail.com"},
@@ -17,3 +17,7 @@ show-banner = "banner_Mingk42.banner:show"
 
 [tool.pdm]
 distribution = true
+
+[project.urls]
+Homepage = "https://github.com/Mingk42/banner_Mingk42"
+Issues = "https://github.com/Mingk42/banner_Mingk42/issues"
